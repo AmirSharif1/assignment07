@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.nav {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.nav1 {
+    font-size: 35px;
+    color: gray;
+    margin-left: 30px;
+}
+
+.nav2 ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    gap: 40px;
+    text-transform: capitalize;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.sec1 {
+    width: 60%;
+    margin: auto;
+    position: relative;
+    height: 550px;
+}
+
+.box1 {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    background-color: #fab297fb;
+    border-radius: 280px;
+    left: 267px;
+    top: 50px;
+}
+
+.box2 img {
+    border-radius: 250px;
+    object-fit: cover;
+}
+
+.box2 {
+    position: absolute;
+    left: 185px;
+    top: 128px;
+}
+
+.box3 {
+    position: absolute;
+    top: 102px;
+    border-radius: 250px;
+    left: 573px;
+}
+
+.sec2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 130px;
+}
+
+.sec2 h1 {
+    color: rgb(53, 52, 52);
+    font-size: 77px;
+}
+
+.fit {
+    width: 25%;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sec2 button {
+    padding: 8px 12px 8px 12px;
+    background-color: rgb(41, 39, 39);
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#free {
+    font-size: 20px;
+}
+
+#p {
+    color: gray;
+    font-size: 35px;
+}
+
+.sec3 {
+    background-color: rgb(228, 225, 225);
+    position: relative;
+    height: 830px;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+.insec1 {
+    height: 333px;
+    position: absolute;
+    width: 336px;
+    border-radius: 250px;
+    background-color: rgb(241, 151, 5);
+    left: 572px;
+    top: 50px;
+}
+
+.insec2 {
+    position: absolute;
+    left: 325px;
+    top: 150px;
+}
+
+.insec3 {
+    position: absolute;
+    left: 571px;
+    top: 424px;
+}
+
+.insec4 {
+    width: 432px;
+    text-transform: capitalize;
+    padding: 25px;
+    font-size: 20px;
+    line-height: 45px;
+    position: absolute;
+    left: 870px;
+    top: 200px;
+    background-color: #fff;
+}
+
+#bran {
+    font-size: 55px;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+.fa-check {
+    color: red;
+}
+.insec4 button {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.foot {
+    background-color: rgb(51, 50, 50);
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.foot a {
+    color: rgb(241, 160, 54);
+}
+
+#sam {
+    margin-bottom: 70px;
+}
